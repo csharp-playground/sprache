@@ -39,10 +39,14 @@
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="Sprache">
+      <HintPath>..\packages\Sprache.2.0.0.52\lib\portable-net4+netcore45+win8+wp8+sl5+MonoAndroid+Xamarin.iOS10+MonoTouch\Sprache.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Spec\ParseCakeTests.cs" />
+    <Compile Include="Spec\KeyValueTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Spec\" />
